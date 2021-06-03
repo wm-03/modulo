@@ -1,0 +1,246 @@
+*{
+	margin : 0;
+	padding: 0;
+}
+
+body{
+	background: #fff;
+	font-family: calibri;
+}
+
+header{
+	background: #01a9db;
+	widht: 100%;
+	height: 100px;
+	box-shadow: 0px 0px 30px #A4A4A4;
+	border-bottom-style: slid;
+	border-bottom-color: #585858;
+	border-botton-width: 5px;
+}
+
+#encabezado{
+	width: 80%;
+	height: 30px;
+	margin: auto;
+	border: 0px solid #000;
+}
+
+#logo{
+	width: 30%;
+	geight: auto; overflow: hidden;
+	float: left;
+	color: #fff;
+	font-size: 25px;
+	margin: 5px;
+}
+
+#menu{
+	width: 60%;
+	height: 30px;
+	float: right;
+	border: 0px solid red;
+	margin-top: 30px
+}
+
+#menu ul{}
+
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#menu ul li .enlace{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+#menu ul li .enlace:hover{
+	background: #585858;
+	color: #fff;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active-menu{
+	background: #585858;
+	color: #fff
+	border-radius: 5px 5px 0px 0px;
+	padding: 10px
+}
+
+
+
+
+#principal{
+	width: 80%;
+	height: auto; overflow: hidden;
+	border: 1px solid;
+	margin: 10px auto;
+}
+
+#publicaciones{
+	widht: 70%;
+	height: auto; overflow: hidden;
+	border: 1px solid red;
+	margin-top: 10px;
+}
+
+.post{
+	widht: 99%;
+	heidht: auto; overflow: hidden;
+	padding: 7px;
+	background: #fdfdfd;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #0489B1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #ccc;
+	margin-bottom: 15px;
+}
+
+.enlace-post{
+	text-decoration: none;
+}
+
+.titulo-post{
+	color: #6e6e6e;
+	font-size: 22px;
+	font-family: 'calibri light';
+}
+
+
+.parrafo-post{
+	font-family: 'calibri light';
+	font-size: 16px;
+	color: #848484;
+	padding: 5px;
+
+}
+
+.parrafo{
+	font-family: 'calibri light';
+	font-size: 20px;
+	padding: 16px;
+}
+
+.lista{
+	font-family: 'calibri light';
+	font-size: 18px;
+	padding: 7px;
+}
+
+.lista-2{
+	font-family: 'calibri light';
+	font-size: 18px;
+	padding: 7px;
+	color: red
+}
+
+.parrafo-2{
+	font-family: 'calibri light';
+	font-size: 25px;
+	padding: 15px;
+	color: blue;
+}
+
+.titulo-post:hover{
+	text-decoration: underline;
+}
+
+.img-post{
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin-top: 7px 7px 7px 0px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.img-post2{
+	width: 250px;
+	height: 210px;
+	float: left;
+	margin-top: 8px 8px 8px 0px;
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.img-post3{
+	width: 550px;
+	height: 400px;
+	float: center;
+	margin-top: 10px 10px 10px 0px;
+	padding: 5px;
+	border: 0px solid #ccc;
+	border-radius: 5px;
+}
+
+.img-post4{
+	width: 400px;
+	height: 250px;
+	float: center;
+	margin-top: 10px 10px 10px 0px;
+	padding: 5px;
+	border: 0px solid #ccc;
+	border-radius: 5px;
+}
+
+.datos-publicaciones{
+	font-family: 'calibri light';
+	color: #0489B1;
+}
+
+.leer-mas{
+	background: #0489B1;
+	color: #fff;
+	border: 0px;
+	padding: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.caja-vid{
+    background: cyan;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.cajatop{
+    width: 332px;
+    height: 232px;
+}
+
+.video{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    align-items: center;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
